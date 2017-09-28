@@ -15,6 +15,17 @@
 		841A21EB1F7D43450085BF0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841A21E91F7D43450085BF0A /* LaunchScreen.storyboard */; };
 		841A21F61F7D43450085BF0A /* IRToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A21F51F7D43450085BF0A /* IRToolsTests.m */; };
 		841A22011F7D43450085BF0A /* IRToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22001F7D43450085BF0A /* IRToolsUITests.m */; };
+		841A22181F7D493A0085BF0A /* IRDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A220F1F7D493A0085BF0A /* IRDateTools.m */; };
+		841A22191F7D493A0085BF0A /* IRDeviceTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22111F7D493A0085BF0A /* IRDeviceTools.m */; };
+		841A221A1F7D493A0085BF0A /* IRFileTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22131F7D493A0085BF0A /* IRFileTools.m */; };
+		841A221B1F7D493A0085BF0A /* IRTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22151F7D493A0085BF0A /* IRTools.m */; };
+		841A221C1F7D493A0085BF0A /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22171F7D493A0085BF0A /* KeychainItemWrapper.m */; };
+		841A22291F7D494B0085BF0A /* NSAttributedString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A221E1F7D494B0085BF0A /* NSAttributedString+Helpers.m */; };
+		841A222A1F7D494B0085BF0A /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22201F7D494B0085BF0A /* NSString+Helper.m */; };
+		841A222B1F7D494B0085BF0A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22221F7D494B0085BF0A /* UIColor+Hex.m */; };
+		841A222C1F7D494B0085BF0A /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22241F7D494B0085BF0A /* UIImage+Helper.m */; };
+		841A222D1F7D494B0085BF0A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22261F7D494B0085BF0A /* UIView+Frame.m */; };
+		841A222E1F7D494B0085BF0A /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22281F7D494B0085BF0A /* UIView+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,28 @@
 		841A21FC1F7D43450085BF0A /* IRToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841A22001F7D43450085BF0A /* IRToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRToolsUITests.m; sourceTree = "<group>"; };
 		841A22021F7D43450085BF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841A220E1F7D493A0085BF0A /* IRDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRDateTools.h; sourceTree = "<group>"; };
+		841A220F1F7D493A0085BF0A /* IRDateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRDateTools.m; sourceTree = "<group>"; };
+		841A22101F7D493A0085BF0A /* IRDeviceTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRDeviceTools.h; sourceTree = "<group>"; };
+		841A22111F7D493A0085BF0A /* IRDeviceTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRDeviceTools.m; sourceTree = "<group>"; };
+		841A22121F7D493A0085BF0A /* IRFileTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRFileTools.h; sourceTree = "<group>"; };
+		841A22131F7D493A0085BF0A /* IRFileTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRFileTools.m; sourceTree = "<group>"; };
+		841A22141F7D493A0085BF0A /* IRTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTools.h; sourceTree = "<group>"; };
+		841A22151F7D493A0085BF0A /* IRTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRTools.m; sourceTree = "<group>"; };
+		841A22161F7D493A0085BF0A /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		841A22171F7D493A0085BF0A /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		841A221D1F7D494B0085BF0A /* NSAttributedString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Helpers.h"; sourceTree = "<group>"; };
+		841A221E1F7D494B0085BF0A /* NSAttributedString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Helpers.m"; sourceTree = "<group>"; };
+		841A221F1F7D494B0085BF0A /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		841A22201F7D494B0085BF0A /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		841A22211F7D494B0085BF0A /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		841A22221F7D494B0085BF0A /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		841A22231F7D494B0085BF0A /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		841A22241F7D494B0085BF0A /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		841A22251F7D494B0085BF0A /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		841A22261F7D494B0085BF0A /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		841A22271F7D494B0085BF0A /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		841A22281F7D494B0085BF0A /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +138,28 @@
 				841A21DF1F7D43450085BF0A /* AppDelegate.m */,
 				841A21E11F7D43450085BF0A /* ViewController.h */,
 				841A21E21F7D43450085BF0A /* ViewController.m */,
+				841A220E1F7D493A0085BF0A /* IRDateTools.h */,
+				841A220F1F7D493A0085BF0A /* IRDateTools.m */,
+				841A22101F7D493A0085BF0A /* IRDeviceTools.h */,
+				841A22111F7D493A0085BF0A /* IRDeviceTools.m */,
+				841A22121F7D493A0085BF0A /* IRFileTools.h */,
+				841A22131F7D493A0085BF0A /* IRFileTools.m */,
+				841A22141F7D493A0085BF0A /* IRTools.h */,
+				841A22151F7D493A0085BF0A /* IRTools.m */,
+				841A22161F7D493A0085BF0A /* KeychainItemWrapper.h */,
+				841A22171F7D493A0085BF0A /* KeychainItemWrapper.m */,
+				841A221D1F7D494B0085BF0A /* NSAttributedString+Helpers.h */,
+				841A221E1F7D494B0085BF0A /* NSAttributedString+Helpers.m */,
+				841A221F1F7D494B0085BF0A /* NSString+Helper.h */,
+				841A22201F7D494B0085BF0A /* NSString+Helper.m */,
+				841A22211F7D494B0085BF0A /* UIColor+Hex.h */,
+				841A22221F7D494B0085BF0A /* UIColor+Hex.m */,
+				841A22231F7D494B0085BF0A /* UIImage+Helper.h */,
+				841A22241F7D494B0085BF0A /* UIImage+Helper.m */,
+				841A22251F7D494B0085BF0A /* UIView+Frame.h */,
+				841A22261F7D494B0085BF0A /* UIView+Frame.m */,
+				841A22271F7D494B0085BF0A /* UIView+Helper.h */,
+				841A22281F7D494B0085BF0A /* UIView+Helper.m */,
 				841A21E41F7D43450085BF0A /* Main.storyboard */,
 				841A21E71F7D43450085BF0A /* Assets.xcassets */,
 				841A21E91F7D43450085BF0A /* LaunchScreen.storyboard */,
@@ -274,7 +329,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				841A21E31F7D43450085BF0A /* ViewController.m in Sources */,
+				841A22191F7D493A0085BF0A /* IRDeviceTools.m in Sources */,
 				841A21E01F7D43450085BF0A /* AppDelegate.m in Sources */,
+				841A222C1F7D494B0085BF0A /* UIImage+Helper.m in Sources */,
+				841A221B1F7D493A0085BF0A /* IRTools.m in Sources */,
+				841A222D1F7D494B0085BF0A /* UIView+Frame.m in Sources */,
+				841A222E1F7D494B0085BF0A /* UIView+Helper.m in Sources */,
+				841A221C1F7D493A0085BF0A /* KeychainItemWrapper.m in Sources */,
+				841A222A1F7D494B0085BF0A /* NSString+Helper.m in Sources */,
+				841A22291F7D494B0085BF0A /* NSAttributedString+Helpers.m in Sources */,
+				841A22181F7D493A0085BF0A /* IRDateTools.m in Sources */,
+				841A222B1F7D494B0085BF0A /* UIColor+Hex.m in Sources */,
+				841A221A1F7D493A0085BF0A /* IRFileTools.m in Sources */,
 				841A21DD1F7D43450085BF0A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
