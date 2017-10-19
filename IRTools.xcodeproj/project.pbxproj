@@ -19,7 +19,7 @@
 		841A22191F7D493A0085BF0A /* IRDeviceTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22111F7D493A0085BF0A /* IRDeviceTools.m */; };
 		841A221A1F7D493A0085BF0A /* IRFileTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22131F7D493A0085BF0A /* IRFileTools.m */; };
 		841A221B1F7D493A0085BF0A /* IRTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22151F7D493A0085BF0A /* IRTools.m */; };
-		841A221C1F7D493A0085BF0A /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22171F7D493A0085BF0A /* KeychainItemWrapper.m */; };
+		841A221C1F7D493A0085BF0A /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22171F7D493A0085BF0A /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		841A22291F7D494B0085BF0A /* NSAttributedString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A221E1F7D494B0085BF0A /* NSAttributedString+Helpers.m */; };
 		841A222A1F7D494B0085BF0A /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22201F7D494B0085BF0A /* NSString+Helper.m */; };
 		841A222B1F7D494B0085BF0A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22221F7D494B0085BF0A /* UIColor+Hex.m */; };
@@ -27,6 +27,9 @@
 		841A222D1F7D494B0085BF0A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22261F7D494B0085BF0A /* UIView+Frame.m */; };
 		841A222E1F7D494B0085BF0A /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22281F7D494B0085BF0A /* UIView+Helper.m */; };
 		84FF8C571F98E0A2004413D1 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8C551F98E0A2004413D1 /* UIAlertView+Blocks.m */; };
+		84FF8C601F98E13F004413D1 /* IRColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8C581F98E13E004413D1 /* IRColorViewController.m */; };
+		84FF8C611F98E13F004413D1 /* IRStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8C5A1F98E13F004413D1 /* IRStringViewController.m */; };
+		84FF8C621F98E13F004413D1 /* IRUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8C5F1F98E13F004413D1 /* IRUIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,14 @@
 		841A22281F7D494B0085BF0A /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
 		84FF8C551F98E0A2004413D1 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
 		84FF8C561F98E0A2004413D1 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		84FF8C581F98E13E004413D1 /* IRColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRColorViewController.m; sourceTree = "<group>"; };
+		84FF8C591F98E13E004413D1 /* IRColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IRColorViewController.xib; sourceTree = "<group>"; };
+		84FF8C5A1F98E13F004413D1 /* IRStringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRStringViewController.m; sourceTree = "<group>"; };
+		84FF8C5B1F98E13F004413D1 /* IRStringViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IRStringViewController.xib; sourceTree = "<group>"; };
+		84FF8C5C1F98E13F004413D1 /* IRUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRUIViewController.h; sourceTree = "<group>"; };
+		84FF8C5D1F98E13F004413D1 /* IRColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRColorViewController.h; sourceTree = "<group>"; };
+		84FF8C5E1F98E13F004413D1 /* IRStringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRStringViewController.h; sourceTree = "<group>"; };
+		84FF8C5F1F98E13F004413D1 /* IRUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRUIViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +154,14 @@
 				841A21E11F7D43450085BF0A /* ViewController.h */,
 				841A21E21F7D43450085BF0A /* ViewController.m */,
 				841A21E41F7D43450085BF0A /* Main.storyboard */,
+				84FF8C5D1F98E13F004413D1 /* IRColorViewController.h */,
+				84FF8C581F98E13E004413D1 /* IRColorViewController.m */,
+				84FF8C591F98E13E004413D1 /* IRColorViewController.xib */,
+				84FF8C5E1F98E13F004413D1 /* IRStringViewController.h */,
+				84FF8C5A1F98E13F004413D1 /* IRStringViewController.m */,
+				84FF8C5B1F98E13F004413D1 /* IRStringViewController.xib */,
+				84FF8C5C1F98E13F004413D1 /* IRUIViewController.h */,
+				84FF8C5F1F98E13F004413D1 /* IRUIViewController.m */,
 				841A21E71F7D43450085BF0A /* Assets.xcassets */,
 				841A21E91F7D43450085BF0A /* LaunchScreen.storyboard */,
 				841A21EC1F7D43450085BF0A /* Info.plist */,
@@ -352,10 +371,13 @@
 				841A222A1F7D494B0085BF0A /* NSString+Helper.m in Sources */,
 				841A22291F7D494B0085BF0A /* NSAttributedString+Helpers.m in Sources */,
 				841A22181F7D493A0085BF0A /* IRDateTools.m in Sources */,
+				84FF8C601F98E13F004413D1 /* IRColorViewController.m in Sources */,
 				841A222B1F7D494B0085BF0A /* UIColor+Hex.m in Sources */,
 				84FF8C571F98E0A2004413D1 /* UIAlertView+Blocks.m in Sources */,
 				841A221A1F7D493A0085BF0A /* IRFileTools.m in Sources */,
+				84FF8C621F98E13F004413D1 /* IRUIViewController.m in Sources */,
 				841A21DD1F7D43450085BF0A /* main.m in Sources */,
+				84FF8C611F98E13F004413D1 /* IRStringViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IRTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.IRTools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IRTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.IRTools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
