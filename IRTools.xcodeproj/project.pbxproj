@@ -26,6 +26,7 @@
 		841A222C1F7D494B0085BF0A /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22241F7D494B0085BF0A /* UIImage+Helper.m */; };
 		841A222D1F7D494B0085BF0A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22261F7D494B0085BF0A /* UIView+Frame.m */; };
 		841A222E1F7D494B0085BF0A /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A22281F7D494B0085BF0A /* UIView+Helper.m */; };
+		84FF8C571F98E0A2004413D1 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8C551F98E0A2004413D1 /* UIAlertView+Blocks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		841A22261F7D494B0085BF0A /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		841A22271F7D494B0085BF0A /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
 		841A22281F7D494B0085BF0A /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		84FF8C551F98E0A2004413D1 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		84FF8C561F98E0A2004413D1 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,32 +137,11 @@
 		841A21DA1F7D43450085BF0A /* IRTools */ = {
 			isa = PBXGroup;
 			children = (
+				84FF8C541F98E01F004413D1 /* catgory */,
 				841A21DE1F7D43450085BF0A /* AppDelegate.h */,
 				841A21DF1F7D43450085BF0A /* AppDelegate.m */,
 				841A21E11F7D43450085BF0A /* ViewController.h */,
 				841A21E21F7D43450085BF0A /* ViewController.m */,
-				841A220E1F7D493A0085BF0A /* IRDateTools.h */,
-				841A220F1F7D493A0085BF0A /* IRDateTools.m */,
-				841A22101F7D493A0085BF0A /* IRDeviceTools.h */,
-				841A22111F7D493A0085BF0A /* IRDeviceTools.m */,
-				841A22121F7D493A0085BF0A /* IRFileTools.h */,
-				841A22131F7D493A0085BF0A /* IRFileTools.m */,
-				841A22141F7D493A0085BF0A /* IRTools.h */,
-				841A22151F7D493A0085BF0A /* IRTools.m */,
-				841A22161F7D493A0085BF0A /* KeychainItemWrapper.h */,
-				841A22171F7D493A0085BF0A /* KeychainItemWrapper.m */,
-				841A221D1F7D494B0085BF0A /* NSAttributedString+Helpers.h */,
-				841A221E1F7D494B0085BF0A /* NSAttributedString+Helpers.m */,
-				841A221F1F7D494B0085BF0A /* NSString+Helper.h */,
-				841A22201F7D494B0085BF0A /* NSString+Helper.m */,
-				841A22211F7D494B0085BF0A /* UIColor+Hex.h */,
-				841A22221F7D494B0085BF0A /* UIColor+Hex.m */,
-				841A22231F7D494B0085BF0A /* UIImage+Helper.h */,
-				841A22241F7D494B0085BF0A /* UIImage+Helper.m */,
-				841A22251F7D494B0085BF0A /* UIView+Frame.h */,
-				841A22261F7D494B0085BF0A /* UIView+Frame.m */,
-				841A22271F7D494B0085BF0A /* UIView+Helper.h */,
-				841A22281F7D494B0085BF0A /* UIView+Helper.m */,
 				841A21E41F7D43450085BF0A /* Main.storyboard */,
 				841A21E71F7D43450085BF0A /* Assets.xcassets */,
 				841A21E91F7D43450085BF0A /* LaunchScreen.storyboard */,
@@ -193,6 +175,37 @@
 				841A22021F7D43450085BF0A /* Info.plist */,
 			);
 			path = IRToolsUITests;
+			sourceTree = "<group>";
+		};
+		84FF8C541F98E01F004413D1 /* catgory */ = {
+			isa = PBXGroup;
+			children = (
+				841A220E1F7D493A0085BF0A /* IRDateTools.h */,
+				841A220F1F7D493A0085BF0A /* IRDateTools.m */,
+				841A22101F7D493A0085BF0A /* IRDeviceTools.h */,
+				841A22111F7D493A0085BF0A /* IRDeviceTools.m */,
+				841A22121F7D493A0085BF0A /* IRFileTools.h */,
+				841A22131F7D493A0085BF0A /* IRFileTools.m */,
+				841A22141F7D493A0085BF0A /* IRTools.h */,
+				841A22151F7D493A0085BF0A /* IRTools.m */,
+				841A22161F7D493A0085BF0A /* KeychainItemWrapper.h */,
+				841A22171F7D493A0085BF0A /* KeychainItemWrapper.m */,
+				841A221D1F7D494B0085BF0A /* NSAttributedString+Helpers.h */,
+				841A221E1F7D494B0085BF0A /* NSAttributedString+Helpers.m */,
+				841A221F1F7D494B0085BF0A /* NSString+Helper.h */,
+				841A22201F7D494B0085BF0A /* NSString+Helper.m */,
+				841A22211F7D494B0085BF0A /* UIColor+Hex.h */,
+				841A22221F7D494B0085BF0A /* UIColor+Hex.m */,
+				841A22231F7D494B0085BF0A /* UIImage+Helper.h */,
+				841A22241F7D494B0085BF0A /* UIImage+Helper.m */,
+				841A22251F7D494B0085BF0A /* UIView+Frame.h */,
+				841A22261F7D494B0085BF0A /* UIView+Frame.m */,
+				841A22271F7D494B0085BF0A /* UIView+Helper.h */,
+				841A22281F7D494B0085BF0A /* UIView+Helper.m */,
+				84FF8C561F98E0A2004413D1 /* UIAlertView+Blocks.h */,
+				84FF8C551F98E0A2004413D1 /* UIAlertView+Blocks.m */,
+			);
+			name = catgory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +353,7 @@
 				841A22291F7D494B0085BF0A /* NSAttributedString+Helpers.m in Sources */,
 				841A22181F7D493A0085BF0A /* IRDateTools.m in Sources */,
 				841A222B1F7D494B0085BF0A /* UIColor+Hex.m in Sources */,
+				84FF8C571F98E0A2004413D1 /* UIAlertView+Blocks.m in Sources */,
 				841A221A1F7D493A0085BF0A /* IRFileTools.m in Sources */,
 				841A21DD1F7D43450085BF0A /* main.m in Sources */,
 			);
@@ -573,6 +587,7 @@
 				841A22071F7D43450085BF0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		841A22081F7D43450085BF0A /* Build configuration list for PBXNativeTarget "IRToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +596,7 @@
 				841A220A1F7D43450085BF0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		841A220B1F7D43450085BF0A /* Build configuration list for PBXNativeTarget "IRToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -589,6 +605,7 @@
 				841A220D1F7D43450085BF0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
